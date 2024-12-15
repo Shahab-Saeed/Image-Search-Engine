@@ -82,3 +82,41 @@ form button{
     object-fit: cover;
     border-radius: 5px;
 }
+
+
+
+@media only screen and (max-width: 650px) {
+    #search-result{
+        grid-template-columns: 1fr 1fr;
+        margin: 100px auto 50px;
+        width:100%;
+    }
+    #search-result img{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+  }
+
+  @media only screen and (max-width: 490px) {
+    #search-result{
+        grid-template-columns: 1fr;
+        width: 100%;
+        /* margin: auto; */
+    }
+    /* .ps{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } */
+
+    /* body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+   */
+    form input{
+        padding: 0 10px;
+    }
+  }
